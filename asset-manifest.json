@@ -1,0 +1,37 @@
+{
+  "files": {
+    "app.js": "/static/js/app.b1b0eccb.chunk.js",
+    "app.js.map": "/static/js/app.b1b0eccb.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
+    "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
+    "static/js/2.85a07e4c.chunk.js": "/static/js/2.85a07e4c.chunk.js",
+    "static/js/2.85a07e4c.chunk.js.map": "/static/js/2.85a07e4c.chunk.js.map",
+    "fonts/Mulish-Bold.ttf": "/./fonts/Mulish-Bold.ttf",
+    "fonts/Mulish-Regular.ttf": "/./fonts/Mulish-Regular.ttf",
+    "favicon-16.png": "/favicon-16.png",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/js/2.85a07e4c.chunk.js.LICENSE.txt": "/static/js/2.85a07e4c.chunk.js.LICENSE.txt",
+    "static/media/books.png": "/static/media/books.df899020.png",
+    "static/media/books@2x.png": "/static/media/books@2x.4ba4c9de.png",
+    "static/media/books@3x.png": "/static/media/books@3x.7b93c9fb.png",
+    "static/media/checkbox.png": "/static/media/checkbox.d98ad8ae.png",
+    "static/media/checkbox@2x.png": "/static/media/checkbox@2x.3b9200a8.png",
+    "static/media/checkbox@3x.png": "/static/media/checkbox@3x.f505ef8d.png",
+    "static/media/filter.svg": "/static/media/filter.87cc4d3a.svg",
+    "static/media/notes.png": "/static/media/notes.598b766c.png",
+    "static/media/notes@2x.png": "/static/media/notes@2x.b1a6e363.png",
+    "static/media/notes@3x.png": "/static/media/notes@3x.d0e27f3f.png",
+    "static/media/traffic-lights.png": "/static/media/traffic-lights.4cb23eed.png",
+    "static/media/traffic-lights@2x.png": "/static/media/traffic-lights@2x.62a8a3b6.png",
+    "static/media/traffic-lights@3x.png": "/static/media/traffic-lights@3x.f90ccfbc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.2e9f1821.js",
+    "static/js/2.85a07e4c.chunk.js",
+    "static/js/app.b1b0eccb.chunk.js"
+  ]
+}
