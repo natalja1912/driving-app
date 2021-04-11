@@ -2,7 +2,7 @@
 
 *Главное меню приложения, которое помогает подготовиться к экзамену по вождению.
 
-#### :wrench: Recommended tools
+#### :wrench: Technologies
 
 - React Native
 - Javascript
