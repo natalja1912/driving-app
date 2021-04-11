@@ -1,8 +1,8 @@
-const DATA = [
+const HOME_SCREEN_MENU_ITEMS = [
     {
         id: '01',
         title: 'Statistik',
-        text: 'Dir Deinen Lernfortschritt',
+        text: 'Your Learning Progress',
         image: 'graph/graph.png',
         color: '#CEEFE4',
         imageColor: '#D9F1E9',
@@ -10,8 +10,8 @@ const DATA = [
     },
     {
         id: '02',
-        title: 'Checkliste',
-        text: 'Alle Schritte zum Führerschein',
+        title: 'Checklist',
+        text: 'All steps to getting Driving License',
         image: 'books/books.png',
         color: '#F2E9E1',
         imageColor: '#F4EDE7',
@@ -20,7 +20,7 @@ const DATA = [
     {
         id: '03',
         title: 'Training',
-        text: 'Schritt für Schritt',
+        text: 'Step by Step',
         image: 'traffic-lights/traffic-lights.png',
         color: '#FDDADD',
         imageColor: '#FFDEE1',
@@ -28,8 +28,8 @@ const DATA = [
     },
     {
         id: '04',
-        title: 'Fragenliste',
-        text: 'Alle Fragen auf einen Blick',
+        title: 'FAQ',
+        text: 'Questions and Answers',
         image: 'checkbox/checkbox.png',
         color: '#BDEDFC',
         imageColor: '#C5EFFC',
@@ -37,8 +37,8 @@ const DATA = [
     },
     {
         id: '05',
-        title: 'Prüfung',
-        text: 'Offizielle Prüfungssimulation',
+        title: 'Exam',
+        text: 'Exam Simulation',
         image: 'notes/notes.png',
         color: '#DFEEFF',
         imageColor: '#E5F1FF',
@@ -46,4 +46,4 @@ const DATA = [
     }
 ];
 
-export default DATA;
+export default HOME_SCREEN_MENU_ITEMS;

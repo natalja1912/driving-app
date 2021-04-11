@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, FlatList } from 'react-native';
-import MenuItem from './MenuItem';
+import MenuItem from '../components/MenuItem';
 
 function Menu({ navigation, data }) {
     const renderItem = ({ item }) => (

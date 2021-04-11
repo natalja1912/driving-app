@@ -1,17 +1,23 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './src/components/HomeScreen';
-import Statistics from './src/components/Statistics';
-import Checklist from './src/components/Checklist';
-import QuestionList from './src/components/QuestionList';
-import TestList from './src/components/TestList';
-import TrainingList from './src/components/TrainingList';
+import { useFonts } from 'expo-font';
+import HomeScreen from './src/screens/HomeScreen';
+import Statistics from './src/screens/Statistics';
+import Checklist from './src/screens/Checklist';
+import QuestionList from './src/screens/QuestionList';
+import TestList from './src/screens/TestList';
+import TrainingList from './src/screens/TrainingList';
 import { StyleSheet } from 'react-native';
 
 const Stack = createStackNavigator();
 
 function App() {
+  const [loaded] = useFonts({
+    'Mulish-Bold': require('./assets/fonts/Mulish-Bold.ttf'),
+    'Mulish-Regular': require('./assets/fonts/Mulish-Regular.ttf'),
+  });
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={HomeScreen} screenOptions={{

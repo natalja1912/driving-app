@@ -4,8 +4,8 @@ import { Button, Text, View } from 'react-native';
 function TrainingList({ navigation }) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>TrainingList Screen</Text>
-        <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
+        <Text style={{marginBottom: 20, fontSize: 20}}>TrainingList Screen</Text>
+        <Button title="Go to HomePage" onPress={() => navigation.navigate('Home')} />
       </View>
     );
   }

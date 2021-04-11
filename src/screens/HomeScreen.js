@@ -1,17 +1,11 @@
 import * as React from 'react';
 import { Text, View, Image } from 'react-native';
 import { StyleSheet } from 'react-native';
-import { useFonts } from 'expo-font';
 import { TouchableHighlight } from 'react-native';
+import HOME_SCREEN_MENU_ITEMS from '../utils/constants';
 import Menu from './Menu';
-import DATA from '../utils/constants';
 
 function HomeScreen({ navigation }) {
-    const [loaded] = useFonts({
-        'Mulish-Bold': require('../../assets/fonts/Mulish-Bold.ttf'),
-        'Mulish-Regular': require('../../assets/fonts/Mulish-Regular.ttf'),
-    });
-
     return (
         <View style={styles.container}>
             <View style={styles.header}>
@@ -24,7 +18,7 @@ function HomeScreen({ navigation }) {
                 </TouchableHighlight>
             </View>
             <View style={styles.heading}><Text style={styles.headingText}>Support and feedback</Text></View>
-            <Menu navigation={navigation} data={DATA}></Menu>
+            <Menu navigation={navigation} data={HOME_SCREEN_MENU_ITEMS}></Menu>
         </View>
     );
 }
